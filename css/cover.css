@@ -4,11 +4,15 @@
 
 /* Links */
 a,
-a:focus,
-a:hover {
+a:focus{
   color: #fff;
 }
-
+a:hover {
+  color: #688377;
+}
+a {
+  text-decoration: none;
+}
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -34,15 +38,25 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   background-image: url('../images/bamboo.jpg');
-/*  background-repeat:  no-repeat center;*/
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 45.93rem;
+  text-align: center;
+  overflow: auto;
 }
-  /*background:linear-gradient(#00CED1, transparent 10%),
+h1 {
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    line-height: 75px;
+}
+ 
+p {
+    font-family: 'Cardo', Georgia, Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+}
 
-                linear-gradient(5deg,#fff, transparent ), 
 
-                #00CED1 url('../images/surfer.jpg') no-repeat center;
-
-*/
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -73,6 +87,8 @@ body {
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: 'Allan', Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
 .masthead-nav > li {
